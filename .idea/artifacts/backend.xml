@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="backend">
+    <output-path>$PROJECT_DIR$/out/artifacts/backend</output-path>
+    <root id="archive" name="backend.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-dbcp2-2.9.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="BackEnd/web/Web" />
+    </root>
+  </artifact>
+</component>
