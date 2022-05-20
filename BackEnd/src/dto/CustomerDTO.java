@@ -6,7 +6,7 @@ public class CustomerDTO {
     private String cusAddress;
     private String cusSalary;
 
-    public CustomerDTO() {
+    public CustomerDTO(String id, String name, String address, double salary) {
     }
 
     public CustomerDTO(String cusId, String cusName, String cusAddress, String cusSalary) {
@@ -44,7 +44,7 @@ public class CustomerDTO {
         return cusSalary;
     }
 
-    public void setCusContact(String cusContact) {
+    public void setCusSalary(String cusSalary) {
         this.cusSalary = cusSalary;
     }
 
@@ -54,7 +54,7 @@ public class CustomerDTO {
                 "cusId='" + cusId + '\'' +
                 ", cusName='" + cusName + '\'' +
                 ", cusAddress='" + cusAddress + '\'' +
-                ", cusContact='" + cusSalary + '\'' +
+                ", cusSalary='" + cusSalary + '\'' +
                 '}';
     }
 }
