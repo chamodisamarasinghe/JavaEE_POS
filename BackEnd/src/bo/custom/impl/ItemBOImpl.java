@@ -28,7 +28,18 @@ public class ItemBOImpl implements ItemBO {
 
     @Override
     public ObservableList<ItemDTO> getAllItem(Connection connection) throws SQLException, ClassNotFoundException {
-        return null;
+        ObservableList<Item> items = itemDAO.getAll(connection);
+
+        ObservableList<ItemDTO> obList = FXCollections.observableArrayList();
+
+        for (Item temp : items) {
+            ItemDTO itemDTO = new ItemDTO(
+                    temp.getCode(),temp.getItem(),temp.getQtyOnHand(),temp.getPrice()
+            );
+
+            obList.add(itemDTO);
+        }
+        return obList;
     }
 
 //    @Override
