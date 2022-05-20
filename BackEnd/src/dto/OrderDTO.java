@@ -1,4 +1,51 @@
 package dto;
 
 public class OrderDTO {
+    private String orderId;
+    private String name;
+    private double total;
+    private String date;
+
+    public OrderDTO() {
+    }
+
+    public OrderDTO(String orderId, String name, double total, String date) {
+        this.orderId = orderId;
+        this.name = name;
+        this.total = total;
+        this.date = date;
+    }
+
+    public String getOrderId() {
+        return orderId;
+    }
+
+    public void setOrderId(String orderId) {
+        this.orderId = orderId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getTotal() {
+        return total;
+    }
+
+    public void setTotal(double total) {
+        this.total = total;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
 }

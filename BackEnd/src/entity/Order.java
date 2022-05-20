@@ -1,10 +1,10 @@
 package entity;
 
 public class Order {
-    String orderId;
-    String name;
-    double total;
-    String date;
+    private String orderId;
+    private String name;
+    private double total;
+    private String date;
 
     public Order() {
     }
