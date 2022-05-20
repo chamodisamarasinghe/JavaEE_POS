@@ -1,11 +1,11 @@
 package entity;
 
 public class OrderDetail {
-    String orderId;
-    String code;
-    double price;
-    int qty;
-    double total;
+    private String orderId;
+    private String code;
+    private double price;
+    private int qty;
+    private double total;
 
     public OrderDetail() {
     }
