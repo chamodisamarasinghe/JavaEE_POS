@@ -1,10 +1,10 @@
 package entity;
 
 public class Item {
-    String code;
-    String item;
-    int qtyOnHand;
-    double price;
+    private String code;
+    private String item;
+    private int qtyOnHand;
+    private double price;
 
     public Item() {
     }
