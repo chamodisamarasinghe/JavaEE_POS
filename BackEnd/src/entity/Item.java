@@ -3,16 +3,16 @@ package entity;
 public class Item {
     String code;
     String item;
-    int qty;
+    int qtyOnHand;
     double price;
 
     public Item() {
     }
 
-    public Item(String code, String item, int qty, double price) {
+    public Item(String code, String item, int qtyOnHand, double price) {
         this.code = code;
         this.item = item;
-        this.qty = qty;
+        this.qtyOnHand = qtyOnHand;
         this.price = price;
     }
 
@@ -32,12 +32,12 @@ public class Item {
         this.item = item;
     }
 
-    public int getQty() {
-        return qty;
+    public int getQtyOnHand() {
+        return qtyOnHand;
     }
 
-    public void setQty(int qty) {
-        this.qty = qty;
+    public void setQtyOnHand(int qty) {
+        this.qtyOnHand = qty;
     }
 
     public double getPrice() {
