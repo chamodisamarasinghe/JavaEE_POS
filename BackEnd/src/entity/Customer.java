@@ -1,12 +1,12 @@
 package entity;
 
 public class Customer {
-    String id;
-    String name;
-    String address;
-    double salary;
+    private String id;
+    private String name;
+    private String address;
+    private double salary;
 
-    public Customer() {
+    public Customer(String cusId, String cusName, String cusAddress, String cusSalary) {
     }
 
     public Customer(String id, String name, String address, double salary) {
