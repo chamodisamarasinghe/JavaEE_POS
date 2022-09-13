@@ -1,3 +1,3 @@
 # JavaEE_POS
 
-<img src="assets/images/1.png">
+<img src="FrontEnd/assets/images/1.png">
