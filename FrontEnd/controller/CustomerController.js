@@ -84,7 +84,7 @@ $("#btn-customer-clear-feild").click(function () {
 
 
 function searchCustomer() {
-    console.log("Searc")
+    console.log("Search")
     for (var i=0;i<customerDb.length;i++){
         if($('#txtCustomerSearch').val()==customerDb[i].getCustomerID()){
             $("#txtCusID").val(customerDb[i].getCustomerID())

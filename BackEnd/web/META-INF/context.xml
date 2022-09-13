@@ -6,7 +6,7 @@
             url="jdbc:mysql://localhost:3306/SuperMarketCompany"
             driverClassName="com.mysql.jdbc.Driver"
             username="root"
-            password="1234"
+            password="Chamodi@123"
             maxTotal="5"
             initialSize="5">
     </Resource>
